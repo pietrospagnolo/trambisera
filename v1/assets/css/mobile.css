@@ -1,0 +1,352 @@
+/* CSS 
+
+1 - General HTML Structure
+2 – Typography
+3 – Assets
+4 - Navigation & Header
+5 – Section
+
+*/
+
+/* Big Big scren 
+---------------------------------------------------*/
+@media (min-width: 2000px) and (max-width: 2560px) {
+    .box { padding-right: 20%;}
+    
+    }
+
+/* Big Big scren 
+---------------------------------------------------*/
+@media (min-width: 2000px) and (max-width: 1441px) {
+    .box { padding-right: 13%;}
+    
+    }
+
+/* Big screnn 1440 — 2560 
+---------------------------------------------------*/
+@media (min-width: 1441px) and (max-width: 2560px) {
+    
+/*    #hamburger{display: block; z-index: 1000000;}*/
+    .menu h4{margin-right: 0%;}
+    .gallery{display: none}
+/*    .box { padding-right: 13%;}*/
+
+}
+
+/* Laptop 1440 — 2560 
+---------------------------------------------------*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+   
+    
+    
+
+    .gallery{display: none;}
+    
+    
+
+    
+    
+/*    #menu{padding: inherit; top: 0px; left: 0; width: 100%;display: flex; flex-direction: row; }*/
+    
+    
+
+    
+/*    #logo h4{display: none}*/
+    
+    .box {
+    display: inline;
+    float: left;
+    padding-right: 7%;
+   
+}
+    
+    
+    
+   
+    
+}
+
+/* Laptop 1025 — 1600 
+---------------------------------------------------*/
+@media (min-width: 1025px) and (max-width: 1600px) {
+/*     .container{ display: none;}*/
+    
+    .box {
+ 
+/*    padding-right: 5%;*/
+   
+}
+    
+    
+    
+    
+}
+
+
+
+/* Phone & Tablet 320 — 1024 
+---------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    
+/*    .marmo-mobile-open{position: absolute; top: 50vh;left: 50vw;  height:200px;z-index: 10}*/
+    
+    
+    #hamburger{background-image: url(../img/brand/open.svg);background-repeat:no-repeat;background-size:cover;position: relative; width: 16px;height: 16.5px;position: fixed;right: 8px;top: 8px;}
+    
+    .swiper-container{display: none;}
+    
+    
+/*
+    .container{ display: none;
+        
+    }
+*/
+    
+    .page-history{
+
+    padding-left: 8px;
+    padding-right: 8px;
+        top:45px;
+}
+
+
+    
+    h1.title-history{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    #menu h4{margin-right: 0%;}
+    .h1-mobile{font-size: 18px;font-weight: bold;}
+    
+    h1{position: absolute;letter-spacing: -1px;
+    bottom: 0;font-size: 40px;overflow-y;padding-bottom:4px; padding-top:8px;padding-left: 8px; padding-right: 8px; overflow-x:hidden;}
+    h4{font-size: 18px;}
+    h5{font-size: 18px;}
+    h6{font-size: 12px;}
+    .title{height: 8vh;overflow-y:hidden; position: relative; bottom: 0px}
+    .edge{padding-left:8px;padding-right: 8px;}
+    .section-marmo{height: 100vh;overflow-y:hidden}
+    .marmo{height: 95vh; overflow-y:hidden}
+    
+    #section-blue{}
+    #section-bianco{}
+    
+    #marmo-bardiglio{}
+    #marmo-blue{}
+    #marmo-bianco{}
+    
+    .card-layout{padding-right: 24px; padding-right: 8px;
+    padding-left: 8px;}
+
+    #card-bardiglio{width: 100vw;bottom:-100vh;left: 0px;position: fixed; margin-left: 0px;}
+    #card-blue{width: 100vw;bottom:-100vh;left: 0px;position: fixed; margin-left: 0px;}
+    #card-bianco{width: 100vw;bottom:-100vh;left: 0px;position: fixed; margin-left: 0px;}
+    
+
+    
+    #card-bardiglio.open{width: 100vw; bottom:0vh;height: 50vh; left: 0px;position: fixed}
+    #card-blue.open{width: 100vw; bottom:0vh;height: 50vh; left: 0px;position: fixed}
+    #card-bianco.open{width: 100vw; bottom:0vh;height: 50vh; left: 0px;position: fixed}
+
+    nav{padding: 8px;padding-bottom: 0px;}
+/*
+    .menu-link{flex: 1;margin-right: 0%;}
+
+    #menu{left: inherit; width: 100%; padding-right: 8px; padding: inherit;}
+    
+    
+    #menu h4{
+        min-width: 33%;
+    }
+*/
+    
+    #logo h4{top: 8px; position: fixed; left: 8px;}
+    #logo{}
+    li{line-height:0}
+    .gallery {display:inline;margin-bottom: 8px;}
+    .gallery::-webkit-scrollbar {display: none;}
+    .photo {min-width: 100vw;height: 100vh;margin-bottom: 8px;color: #34495e;outline: white solid 8px;}
+    #photo-10{background-image: url(../img/gallery/19_DAD6213.jpg);background-repeat: no-repeat;background-size:cover;margin-bottom:-8px;width: 100vw;height:100vh;}
+    
+/*
+    #symbol-home{width: 100vw;bottom: 6px;}
+    #symbolhome{width: 100vw;z-index:10;}
+*/
+    
+    #home-symbol{width: 100vw;bottom: 5px;margin-left: 8px;margin-right: 8px;z-index: -1;position: fixed; bottom:5;}
+    #img-symbol{width: 100vw;margin-right:16px;}
+    
+    
+    
+    
+    #contacts-symbol{position: fixed;
+    bottom: 5px;
+    width: 100vw;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+/*
+    margin-left: 8px;
+    margin-right: 8px;
+*/
+    right: 0px;
+    
+    
+}
+
+#img-contacts{width: 100%; margin-left: 8px;margin-right: 8px;
+    
+    
+    
+}
+    
+    .mail{display: none;
+    }
+    
+    .info{display: none;   
+}
+    
+    .info-mobile{width: 50vw;
+    position: absolute;
+    top:45px;
+        display: block;
+}
+
+    
+    
+    
+    
+/*
+    #contacts-symbol{width: 100vw;bottom: 5px;margin-left: 8px;margin-right: 8px;z-index: -1;position: fixed; bottom:5;}
+    #img-contacts{width: 100vw;margin-right: -8px;margin-left: -16px; background-color: red}
+    
+*/
+    
+/*
+    #menu h4{
+        width: inherit;
+        padding: inherit;
+        float: left;
+
+        
+    
+        }
+    #menu{
+
+    }
+    
+    #menu-1{position: fixed; left: 8px;
+        
+    }
+    
+    #menu-2{position: relative;
+float: left;
+        text-align: center;
+top: 9px;
+left: 50%;
+transform: translate(-50%, -50%);
+
+        
+    }
+    
+    #menu-3{position: fixed; right: 8px;
+        
+    }
+    
+*/
+   
+    
+/*
+    
+    #menu {
+     padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+        
+}
+.row {
+   width: 100%;
+}
+.menu-link{
+background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+*/
+    
+    
+    #logo{
+    top: 8px;
+    left: 8px;
+   
+    
+}
+
+    .hide{display: none}
+
+    
+    
+    
+.container {
+  display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+    top: -60px;
+    margin-top: 8px;
+    width: 100vw;
+    position: fixed;
+    
+    left: 0px;
+    
+
+}
+    
+    .show {
+
+    top: 0px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    
+
+}
+    
+    .box {
+        padding: 0;
+    }
+    
+/*
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+    padding-right: 10%;
+}
+
+.box:first-child > span { margin-right: auto; }
+
+.box:last-child  > span { margin-left: auto;  }
+*/
+    
+    nav{
+        display: none;
+    }
+
+
+    
+    
+
+}
